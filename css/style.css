@@ -1,0 +1,61 @@
+
+/*
+cores principais
+#F2BC79 Dourado
+#A67951 Bege escuro
+#D99F6C Bege claro
+#0D0000 Preto
+#F2F2F2 Branco
+
+ /*******Header**************/
+
+      /* Carousel styling */
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
+
+      .carousel-item:nth-child(1) {
+        background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/capa-2_LAUYQihuT.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(2) {
+        background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/capa-1_5TQiGEQVG.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color:white;
+      }
+      .blockquote .blockquote-footer{
+
+        color:white;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/capa-3__7d7MVEbTD.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #introCarousel {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color:black !important;
+        
+      }
+      .navbar{
+        background-color: #fff;
+      }
+    
