@@ -20,11 +20,15 @@
   <!-- <link rel="stylesheet" href="css/mdb.min.css" /> -->
 </head>
 
+
+
+
+
 <body>
 
   <!-- Navbar -->
 
-  <nav class="navbar navbar-expand-lg  navbar-light d-lg-block" style="z-index: 2000;">
+  <nav class="navbar fixed-top navbar-expand-lg  navbar-light d-lg-block" style="z-index: 2000;">
     <!-- Container wrapper -->
     <div class="container-fluid">
 
@@ -87,19 +91,40 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cursos</a>
+          <!-- Dropdown menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              Cursos
+            </a>
+
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Ju Ensina</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Filhos organizados</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Bons Hábitos </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Ténicas Milagrosas</a>
+              </li>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">E-books</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Loja</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
-          </li>
-          
+
+        </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">E-books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Loja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+
         </ul>
 
         <!-- Icons -->
@@ -141,10 +166,9 @@
             <div class="text-white text-center">
               <h1 class="mb-3">Aprenda a Organizar</h1>
               <h5 class="mb-4">O melhor conteúdo sobre Organização</h5>
-              <a class="btn btn-outline-light btn-lg m-2" href="#"
-                role="button" rel="nofollow" target="_blank">Por onde começar</a>
-              <a class="btn btn-outline-light btn-lg m-2" href="#" target="_blank"
-                role="button">Serviços</a>
+              <a class="btn btn-outline-light btn-lg m-2" href="#" role="button" rel="nofollow" target="_blank">Por onde
+                começar</a>
+              <a class="btn btn-outline-light btn-lg m-2" href="#" target="_blank" role="button">Serviços</a>
             </div>
           </div>
         </div>
@@ -161,14 +185,14 @@
             ">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white text-center">
-              
+
               <blockquote class="blockquote">
                 <h2 class="mb-4">Sem organização não há otimização.</h2>
                 <footer class=" blockquote-footer">Marinho Guzman </cite></footer>
               </blockquote>
               <!--
               <h2>Sem organização não há otimização.</h2> -->
-              
+
             </div>
           </div>
         </div>
@@ -185,9 +209,9 @@
             ">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white text-center">
-              <h2> E-Book</h2>
-              <a class="btn btn-outline-light btn-lg m-2"
-                href="#" target="_blank" role="button">Check-List de e-books</a>
+              <h2> News-Letter</h2>
+              <a class="btn btn-outline-light btn-lg m-2" href="#" target="_blank" role="button">Receba dicas
+                Semanais</a>
             </div>
           </div>
         </div>
@@ -212,7 +236,72 @@
   <!--Main layout-->
   <main class="mt-5">
     <div class="container">
+
+
+      <!--sobre Mim-->
+      <div class="container my-5 py-5 z-depth-1">
+
+
+        <!--Section: Content-->
+        <section class="text-center px-md-5 mx-md-5 dark-grey-text">
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-6 mb-lg-0 mb-md-4">
+
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/juliana500px_GseV4Dyxh.jpg"
+                  class="shadow-custom img-fluid" alt="">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-content-lg-center">
+
+              <h3 class="font-weight-bold my-3">Juliana Torrecilas</h3>
+
+
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
+                eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
+                sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+              </p>
+              <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
+                nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
+                alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+              </p>
+              <div class="d-inline">
+
+                <a class="  btn btn-warning btn-md waves-effect" href="#" role="button">Leia mais</a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+      </div>
+      </section>
       <!--Section: Content-->
+
+
+
+      <!--Fim sobre mim-->
+
+
+      <hr class="my-5" />
+      <!--Section: Content-->
+      <!--
       <section>
         <div class="row">
           <div class="col-md-6 gx-5 mb-4">
@@ -223,6 +312,8 @@
               </a>
             </div>
           </div>
+
+
 
           <div class="col-md-6 gx-5 mb-4">
             <h4><strong>Facilis consequatur eligendi</strong></h4>
@@ -239,31 +330,34 @@
             </p>
           </div>
         </div>
-      </section>
-      <!--Section: Content-->
-
+      </section> 
       <hr class="my-5" />
-
+    -->
       <!--Section: Content-->
+
+
+
+      <!--Section: Serviços-->
       <section class="text-center">
-        <h4 class="mb-5"><strong>Facilis consequatur eligendi</strong></h4>
+        <h2 class="mb-5"><strong>Serviços</strong></h2>
 
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
+                <img src="https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/original7_Lf721zIbkse.jpg"
+                  class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Organização do lar</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente distinctio atque ratione veniam
+                  aspernatur libero sint vitae?
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="#!" class="btn btn-warning">Leia mais</a>
               </div>
             </div>
           </div>
@@ -271,18 +365,18 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
+                <img src="img/omurden-cengiz--G2iJF_aUws-unsplash.jpg" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Baby</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente distinctio atque ratione veniam
+                  aspernatur libero sint vitae?
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="#!" class="btn btn-warning">Leia mais</a>
               </div>
             </div>
           </div>
@@ -290,18 +384,18 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
+                <img src="img/kadarius-seegars-S6OvsSwm5sE-unsplash.jpg" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Pós mudança</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente distinctio atque ratione veniam
+                  aspernatur libero sint vitae?.
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="#!" class="btn btn-warning">Leia mais</a>
               </div>
             </div>
           </div>
@@ -310,10 +404,669 @@
       <!--Section: Content-->
 
       <hr class="my-5" />
+      <!--Section: Portfólio-->
+      <div class="container my-5">
 
+        <!-- Section -->
+        <section>
+
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body p-0">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 py-5 px-5 ">
+
+                      <h5 class="font-weight-normal mb-3 text-warning">Tipo do serviço</h5>
+
+                      <p class="text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sapiente
+                        nulla rerum obcaecati laboriosam sit aperiam illum beatae non, provident earum, repellat
+                        suscipit! Assumenda voluptate dolores obcaecati harum officiis neque.</p>
+
+                      <ul class="list-unstyled font-small mt-5">
+                        <li>
+                          <p class="text-uppercase mb-2 text-warning"><strong>Cliente</strong></p>
+                          <p class="text-muted mb-4 text-warning">Joana </p>
+                        </li>
+
+
+
+                        <li>
+                          <p class="text-uppercase mb-2 text-warning"><strong>Serviços realizados</strong></p>
+                          <p class="text-muted mb-4">Organização bla bla bla</p>
+                        </li>
+
+
+                      </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6">
+
+                      <div class="view rounded-right">
+                        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg"
+                          alt="Sample image">
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="font-weight-bold text-center grey-text  text-warning mb-4">Portfólio</h2>
+
+
+          <p class="lead text-center text-muted pt-2 mb-5">Alguns dos meus trabalhos realizados.</p>
+
+          <!--First row-->
+          <div class="row">
+
+            <!--First column-->
+            <div class="col-12">
+
+              <!-- Nav tabs -->
+              <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31"
+                    role="tab">Todos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32"
+                    role="tab">Organização do lar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">Pós
+                    Mudança</a>
+                </li>
+              </ul>
+
+            </div>
+            <!--First column-->
+
+          </div>
+          <!--First row-->
+
+          <!--Tab panels-->
+          <div class="tab-content mb-5">
+
+            <!--Panel 1-->
+            <div class="tab-pane fade show in active" id="panel31" role="tabpanel">
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Phone Bag</h5>
+                      <p class="card-text text-white text-uppercase mb-3">Bag, Box</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Paper Bag</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Bag</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Book</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Book</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Notes</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Note</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">T-shirt</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Box</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Magazine</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Book</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+            <!--Panel 1-->
+
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="panel32" role="tabpanel">
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Paper Bag</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Bag</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Book</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Book</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Magazine</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Book</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+            <!--Panel 2-->
+
+            <!--Panel 3-->
+            <div class="tab-pane fade" id="panel33" role="tabpanel">
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-4">
+
+                  <!-- Card -->
+                  <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Phone Bag</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Bag, Box</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">Notes</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Note</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4">
+
+                  <!-- Card -->
+                  <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg"
+                      alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <h5 class="my-3 text-white">T-shirt</h5>
+                      <p class="card-text text-uppercase mb-3 text-white">Box</p>
+
+                    </div>
+
+                  </a>
+                  <!-- Card -->
+
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+            <!--Panel 3-->
+
+          </div>
+          <!--Tab panels-->
+
+        </section>
+        <!-- Section -->
+
+      </div>
+      <!--Section: Fim Portfólio-->
+      <hr class="my-5" />
+      <!--Section: Blog-->
+      <div class="container my-5">
+
+
+        <!--Section: Content-->
+        <section class="magazine-section dark-grey-text">
+
+          <!-- Section heading -->
+          <h3 class="text-center font-weight-bold mb-4 pb-2">Blog</h3>
+          <!-- Section description -->
+          <p class="text-center w-responsive mx-auto mb-5">Aqui você vai encontrar informações, novidades e
+            principalmente inspiração para você!</p>
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+              <!-- Featured news -->
+              <div class="single-news">
+
+                <!-- Image -->
+                <div class="view overlay rounded z-depth-1-half mb-4">
+                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/1.jpg" alt="Sample image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Data -->
+                <div class="news-data d-flex justify-content-between">
+                  <a href="#!" class="deep-orange-text">
+                    <h6 class="font-weight-bold text-white "><i class="fas fa-luggage-cart text-warning p-lg-3"></i>Viagem</h6>
+                  </a>
+                  <p class="font-weight-bold dark-grey-text"><i class="fas fa-clock-o pr-2"></i>14/07/2021</p>
+                </div>
+
+                <!-- Excerpt -->
+                <h3 class="font-weight-bold dark-grey-text mb-3 text-warning"><a class="text-warning">Organizando malas</a></h3>
+                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla facilis est
+                  quo dolore voluptatibus recusandae autem! Sapiente minus officia quas, veritatis impedit libero
+                  dolorem. Aperiam sint nihil doloremque obcaecati maxime...</p>
+
+              </div>
+              <!-- Featured news -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-6 col-md-12 mb-4">
+
+              <!-- Small news -->
+              <div class="single-news mb-4">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-3">
+
+                    <!--Image-->
+                    <div class="view overlay rounded z-depth-1 mb-4">
+                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg"
+                        alt="Sample image">
+                      <a>
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-9">
+
+                    <!-- Excerpt -->
+                    <p class="font-weight-bold dark-grey-text">26/02/2018</p>
+                    <div class="d-flex justify-content-between">
+                      <div class="col-11 text-truncate pl-0 mb-3">
+                        <a href="#!" class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos
+                          ducimus qui blanditiis</a>
+                      </div>
+                      <a><i class="fas fa-angle-double-right"></i></a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+              </div>
+              <!-- Small news -->
+
+              <!-- Small news -->
+              <div class="single-news mb-4">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-3">
+
+                    <!--Image-->
+                    <div class="view overlay rounded z-depth-1 mb-4">
+                      <img class="img-fluid"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+                        alt="Sample image">
+                      <a>
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-9">
+
+                    <!-- Excerpt -->
+                    <p class="font-weight-bold dark-grey-text">25/02/2018</p>
+                    <div class="d-flex justify-content-between">
+                      <div class="col-11 text-truncate pl-0 mb-3">
+                        <a href="#!" class="dark-grey-text">Itaque earum rerum hic tenetur a sapiente delectus</a>
+                      </div>
+                      <a><i class="fas fa-angle-double-right"></i></a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+              </div>
+              <!-- Small news -->
+
+              <!-- Small news -->
+              <div class="single-news mb-4">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-3">
+
+                    <!--Image-->
+                    <div class="view overlay rounded z-depth-1 mb-4">
+                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/87.jpg"
+                        alt="Sample image">
+                      <a>
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-9">
+
+                    <!-- Excerpt -->
+                    <p class="font-weight-bold dark-grey-text">24/02/2018</p>
+                    <div class="d-flex justify-content-between">
+                      <div class="col-11 text-truncate pl-0 mb-3">
+                        <a href="#!" class="dark-grey-text">Soluta nobis est eligendi optio cumque nihil impedit quo
+                          minus</a>
+                      </div>
+                      <a><i class="fas fa-angle-double-right"></i></a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+              </div>
+              <!-- Small news -->
+
+              <!-- Small news -->
+              <div class="single-news">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-3">
+
+                    <!--Image-->
+                    <div class="view overlay rounded z-depth-1 mb-md-0 mb-4">
+                      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+                        alt="Sample image">
+                      <a>
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-9">
+
+                    <!-- Excerpt -->
+                    <p class="font-weight-bold dark-grey-text">23/02/2018</p>
+                    <div class="d-flex justify-content-between">
+                      <div class="col-11 text-truncate pl-0 mb-lg-3">
+                        <a href="#!" class="dark-grey-text">Duis aute irure dolor in reprehenderit in voluptate</a>
+                      </div>
+                      <a><i class="fas fa-angle-double-right"></i></a>
+                    </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+              </div>
+              <!-- Small news -->
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!-- Grid row -->
+
+        </section>
+        <!--Section: Content-->
+
+
+      </div>
+
+      <!--Section: Fim Blog-->
+
+
+
+      <hr class="my-5" />
       <!--Section: Content-->
       <section class="mb-5">
-        <h4 class="mb-5 text-center"><strong>Facilis consequatur eligendi</strong></h4>
+        <h4 class="mb-5 text-center"><strong>Entre em contato</strong></h4>
 
         <div class="row d-flex justify-content-center">
           <div class="col-md-6">
@@ -323,61 +1076,37 @@
                 <div class="col">
                   <div class="form-outline">
                     <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label" for="form3Example1">First name</label>
+                    <label class="form-label" for="form3Example1">Nome</label>
                   </div>
                 </div>
                 <div class="col">
                   <div class="form-outline">
-                    <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label" for="form3Example2">Last name</label>
+                    <input type="email" id="form3Example2" class="form-control" />
+                    <label class="form-label" for="form3Example2">E-mail</label>
                   </div>
                 </div>
               </div>
 
               <!-- Email input -->
-              <div class="form-outline mb-4">
-                <input type="email" id="form3Example3" class="form-control" />
-                <label class="form-label" for="form3Example3">Email address</label>
+
+
+              <!-- Text-Area -->
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
               </div>
 
-              <!-- Password input -->
-              <div class="form-outline mb-4">
-                <input type="password" id="form3Example4" class="form-control" />
-                <label class="form-label" for="form3Example4">Password</label>
-              </div>
 
-              <!-- Checkbox -->
-              <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />
-                <label class="form-check-label" for="form2Example3">
-                  Subscribe to our newsletter
-                </label>
-              </div>
 
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4">
-                Sign up
-              </button>
-
-              <!-- Register buttons -->
               <div class="text-center">
-                <p>or sign up with:</p>
-                <button type="button" class="btn btn-primary btn-floating mx-1">
-                  <i class="fab fa-facebook-f"></i>
-                </button>
-
-                <button type="button" class="btn btn-primary btn-floating mx-1">
-                  <i class="fab fa-google"></i>
-                </button>
-
-                <button type="button" class="btn btn-primary btn-floating mx-1">
-                  <i class="fab fa-twitter"></i>
-                </button>
-
-                <button type="button" class="btn btn-primary btn-floating mx-1">
-                  <i class="fab fa-github"></i>
+                <button type="submit" class="btn btn-warning  mb-4">
+                  Enviar
                 </button>
               </div>
+
+              <!-- Register buttons -->
+
             </form>
           </div>
         </div>
@@ -388,53 +1117,25 @@
   <!--Main layout-->
 
   <!--Footer-->
-  <footer class="bg-light text-lg-start">
-    <div class="py-4 text-center">
-      <a role="button" class="btn btn-primary btn-lg m-2"
-        href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
-        Learn Bootstrap 5
-      </a>
-      <a role="button" class="btn btn-primary btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank">
-        Download MDB UI KIT
-      </a>
-    </div>
 
-    <hr class="m-0" />
-
-    <div class="text-center py-4 align-items-center">
-      <p>Follow MDB on social media</p>
-      <a href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" class="btn btn-primary m-1" role="button"
-        rel="nofollow" target="_blank">
-        <i class="fab fa-youtube"></i>
-      </a>
-      <a href="https://www.facebook.com/mdbootstrap" class="btn btn-primary m-1" role="button" rel="nofollow"
-        target="_blank">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://twitter.com/MDBootstrap" class="btn btn-primary m-1" role="button" rel="nofollow"
-        target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://github.com/mdbootstrap/mdb-ui-kit" class="btn btn-primary m-1" role="button" rel="nofollow"
-        target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!--Footer-->
   <!-- End your project here-->
 
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
+  <script src="js/script.js"></script>
+
+  <!-- bootstrap 4-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

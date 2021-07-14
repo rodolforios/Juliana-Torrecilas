@@ -1,4 +1,3 @@
-
 /*
 cores principais
 #F2BC79 Dourado
@@ -9,53 +8,74 @@ cores principais
 
  /*******Header**************/
 
-      /* Carousel styling */
-      #introCarousel,
-      .carousel-inner,
-      .carousel-item,
-      .carousel-item.active {
-        height: 100vh;
-      }
+/* Carousel styling */
 
-      .carousel-item:nth-child(1) {
-        background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/capa-2_LAUYQihuT.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
+#introCarousel, .carousel-inner, .carousel-item, .carousel-item.active {
+  height: 100vh;
+}
 
-      .carousel-item:nth-child(2) {
-        background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/capa-1_5TQiGEQVG.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        color:white;
-      }
-      .blockquote .blockquote-footer{
+.carousel-item:nth-child(1) {
+  background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/1000px_3__6-oZyYwKF.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
-        color:white;
-      }
+.carousel-item:nth-child(2) {
+  background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/1000px_duKY-sY15D.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
 
-      .carousel-item:nth-child(3) {
-        background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/capa-3__7d7MVEbTD.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        
-      }
+.blockquote .blockquote-footer {
+  color: white;
+}
 
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #introCarousel {
-          margin-top: -58.59px;
-        }
-      }
+.carousel-item:nth-child(3) {
+  background-image: url('https://ik.imagekit.io/i2ec8sclpkd/Juliana_torrecilas/1000px_2__oGAplh4Pc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
-      .navbar .nav-link {
-        color:black !important;
-        
-      }
-      .navbar{
-        background-color: #fff;
-      }
-    
+/* Height for devices larger than 576px */
+
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: black !important;
+}
+
+.navbar {
+  background-color: #fff;
+}
+/*Sobre mim*/
+
+.shadow-custom {
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, .25), 0 3px 10px 13px rgba(0, 0, 0, 0.23) !important;
+}
+/*Portfólio*/
+
+.nav-link{
+  color:white;
+}
+.md-pills .nav-link.active {
+  color: #FFA900;
+  background-color: #616161;
+}
+button.close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding-right: 1rem;
+  padding-top: .6rem;
+}
+.nav-link:hover{
+  color:#FFA900;
+}
