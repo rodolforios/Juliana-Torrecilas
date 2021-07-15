@@ -79,3 +79,11 @@ button.close {
 .nav-link:hover{
   color:#FFA900;
 }
+
+/*******Serviços*****/
+
+.caixa-sevico:hover{
+  border: 1px solid #FFA900;
+
+}
+
